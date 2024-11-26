@@ -1,0 +1,136 @@
+/*.slider {
+    max-width: 800px;
+    min-width: 300px;
+}
+
+
+.slider>img {
+    width: 100%;
+    height: 400px;
+
+}
+
+body {
+    margin: 0px;
+}
+
+.child {
+    background-color: orange;
+    width: 85%;
+    height: 78%;
+}
+
+.content {
+    background-color: orchid;
+    width: 300px;
+    overflow-y: hidden;
+    margin: 10px;
+    border-style: solid;
+    border-width: 10px 5px 10px 5px;
+    border-color: blue greenyellow red black;
+    padding: 20px;
+
+
+
+}
+
+
+.two {
+    background-color: orchid;
+    width: 300px;
+    overflow-y: hidden;
+    margin: 10px;
+    border-style: solid;
+    border-width: 10px 5px 10px 5px;
+    border-color: blue greenyellow red black;
+    padding: 20px;
+    display: inline-block;
+}
+
+.inline {
+    display: flex;
+    margin: 10px;
+}
+
+.main {
+    background-color: aquamarine;
+    height: 100vh;
+}
+
+.bo {
+    display: flex;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0px 3px 8px rgb(181, 179, 179);
+    margin: 100px auto;
+    border-radius: 150px;
+    background-image: url(image/images\ \(1\).jpg);
+}
+
+.boxy {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0px 3px 8px rgb(181, 179, 179);
+    margin: 100px auto;
+    border-radius: 150px;
+    
+}
+
+.box1 {
+    width: 30%;
+    height: 200px;
+    background-color: blue;
+    float: right;
+}
+
+
+.box2 {
+    width: 70%0px;
+    height: 200px;
+    background-color: rgb(255, 0, 68);
+}
+
+.clear {
+    clear: both:
+}
+
+h1 {
+    color: blue;
+    background-color: antiquewhite;
+}*/
+
+body {
+    margin: 0px;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+
+    display: flex;
+
+    /* flex-flow: column wrap; align-content:space-around;
+   justify-content: center;
+    align-items:center;*/
+}
+
+.image{
+    width:100 px;
+    height: 100px;background-color: black;flex: 5;}
+   
+
+.image2{
+    width: 100px;
+    height: 100px;background-color: blueviolet;
+   
+    border: 2px solid red;
+    flex: 1;
+
+
+}
